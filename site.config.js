@@ -1,31 +1,43 @@
 const CONFIG = {
   // profile setting (required)
   profile: {
-    name: "morethanmin",
+    name: "Seungseob Kim",
     image: "/avatar.svg", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
     role: "frontend developer",
-    bio: "I develop everything using node.",
-    email: "morethanmin.dev@gmail.com",
-    linkedin: "morethanmin",
-    github: "morethanmin",
+    bio: "끈질기게 기록하고 소화하기",
+    email: "sub9707@naver.com",
+    linkedin: "",
+    github: "sub9707",
     instagram: "",
   },
   projects: [
     {
-      name: `morethan-log`,
-      href: "https://github.com/morethanmin/morethan-log",
+      name: `trouble-shooter`,
+      href: "https://github.com/sub9707/comments_cloud",
+    },
+    {
+      name: `Repomon`,
+      href: "https://github.com/sub9707/repomon",
+    },
+    {
+      name: `on-the-mars`,
+      href: "https://github.com/sub9707/on-the-mars",
+    },
+    {
+      name: `funteer`,
+      href: "https://github.com/sub9707/funteer",
     },
   ],
   // blog setting (required)
   blog: {
-    title: "morethan-log",
-    description: "welcome to morethan-log!",
+    title: "김승섭 개발 학습 블로그",
+    description: "웹개발 지식들을 끈질기게 기록하는 학습 블로그입니다",
   },
 
   // CONFIG configration (required)
-  link: "https://morethan-log.vercel.app",
-  since: 2022, // If leave this empty, current year will be used.
-  lang: "en-US", // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES', 'ko-KR']
+  link: "https://subdevblog.vercel.app/",
+  since: "", // If leave this empty, current year will be used.
+  lang: "ko-KR", // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES', 'ko-KR']
   ogImageGenerateURL: "https://og-image-korean.vercel.app", // The link to generate OG image, don't end with a slash
 
   // notion configuration (required)
