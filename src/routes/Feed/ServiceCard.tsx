@@ -25,7 +25,7 @@ const ServiceCard: React.FC = () => {
         ))}
       </StyledWrapper>
       <StyledTitle>
-        <Emoji>🎯</Emoji> 프로젝트 에러노트
+        <Emoji>🎯</Emoji> 프로젝트 에러 노트
       </StyledTitle>
       <StyledWrapper>
         <a href="https://www.notion.so/subsubdev/a62c9b25b0aa466e9015da8fe54aa66e?v=c9efe8e44ffb486695093f4f56a74437">
