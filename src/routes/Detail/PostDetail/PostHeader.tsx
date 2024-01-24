@@ -12,7 +12,6 @@ type Props = {
 }
 
 const PostHeader: React.FC<Props> = ({ data }) => {
-  const router = useRouter()
   return (
     <StyledWrapper>
       <h1 className="title">{data.title}</h1>
@@ -50,7 +49,6 @@ const PostHeader: React.FC<Props> = ({ data }) => {
               </div>
             )}
           </div>
-          <a onClick={() => router.push("/")}>← Back</a>
           {data.thumbnail && (
             <div className="thumbnail">
               <Image
