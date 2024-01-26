@@ -10,7 +10,6 @@ const TagList: React.FC<Props> = () => {
   const router = useRouter()
   const currentTag = router.query.tag || undefined
   const data = useTagsQuery()
-
   const handleClickTag = (value: any) => {
     // delete
     if (currentTag === value) {
