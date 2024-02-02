@@ -20,7 +20,9 @@ const PostDetail: React.FC<Props> = () => {
   return (
     <StyledWrapper>
       <article>
-        <a onClick={() => router.push("/")}>← Back</a>
+        <a style={{ marginBottom: "2em" }} onClick={() => router.push("/")}>
+          ← Back
+        </a>
         <br />
         {category && (
           <div css={{ marginBottom: "0.5rem" }}>
