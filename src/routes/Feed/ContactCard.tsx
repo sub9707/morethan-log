@@ -41,7 +41,7 @@ const ContactCard: React.FC = () => {
             css={{ overflow: "hidden" }}
           >
             <AiOutlineMail className="icon" />
-            <div className="name">email</div>
+            <div className="name">sub9707@naver.com</div>
           </a>
         )}
         {CONFIG.profile.linkedin && (
