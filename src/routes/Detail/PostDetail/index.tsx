@@ -20,12 +20,10 @@ const PostDetail: React.FC<Props> = () => {
   return (
     <StyledWrapper>
       <article>
-        <a style={{ marginBottom: "2em" }} onClick={() => router.push("/")}>
-          ← Back
-        </a>
+        <a onClick={() => router.push("/")}>← Back</a>
         <br />
         {category && (
-          <div css={{ marginBottom: "0.5rem" }}>
+          <div css={{ marginBottom: "0.5rem", marginTop: "2rem" }}>
             <Category readOnly={data.status?.[0] === "PublicOnDetail"}>
               {category}
             </Category>
@@ -35,12 +33,11 @@ const PostDetail: React.FC<Props> = () => {
         <div>
           <NotionRenderer recordMap={data.recordMap} />
         </div>
-        {data.type[0] === "Post" && (
-          <>
-            <Footer />
-            <CommentBox data={data} />
-          </>
-        )}
+
+        <>
+          <Footer />
+          <CommentBox data={data} />
+        </>
       </article>
     </StyledWrapper>
   )
