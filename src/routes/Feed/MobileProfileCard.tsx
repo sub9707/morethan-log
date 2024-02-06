@@ -39,7 +39,6 @@ const StyledWrapper = styled.div`
   @media (min-width: 1024px) {
     display: none;
   }
-
   > .top {
     padding: 0.25rem;
     margin-bottom: 0.75rem;
