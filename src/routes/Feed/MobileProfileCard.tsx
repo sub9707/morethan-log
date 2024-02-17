@@ -55,6 +55,7 @@ const StyledWrapper = styled.div`
       display: flex;
       gap: 0.5rem;
       align-items: center;
+
       > .wrapper {
         height: fit-content;
         > .top {
